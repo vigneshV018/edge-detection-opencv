@@ -49,8 +49,8 @@ Display all edge-detected images for comparison.
 
 ## Developed By
 
-- **Name:** SAIPRASATH P 
-- **Register No:** 212224230238  
+- **Name:** VIGNESH V
+- **Register No:** 212224230303
 
 ---
 
@@ -94,6 +94,7 @@ plt.title('Laplacian Edge Detection')
 plt.axis('off')
 ```
 
+<img width="720" height="511" alt="image" src="https://github.com/user-attachments/assets/70a25d4e-3c4c-40ab-a7d4-2a0543569b1c" />
 
  
 
