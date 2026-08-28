@@ -62,14 +62,15 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('SAISHU.jpg') 
+image = cv2.imread('fight.jpeg') 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.axis('off')
 ```
-<img width="461" height="547" alt="image" src="https://github.com/user-attachments/assets/dd610650-4b9a-45d2-a2d8-ed0e1376c7cc" />
+<img width="327" height="530" alt="image" src="https://github.com/user-attachments/assets/58a6bbc9-b5b5-459b-bf5f-a778893e665f" />
+
 
 ###  Prewitt Edge Detector
 ```
@@ -80,7 +81,9 @@ plt.imshow(sobel_combined, cmap='gray')
 plt.title('Sobel Edge Detection')
 plt.axis('off')
 ```
-<img width="423" height="542" alt="image" src="https://github.com/user-attachments/assets/1f84a14d-451f-45f7-a6f5-0d94be7098da" />
+<img width="755" height="497" alt="image" src="https://github.com/user-attachments/assets/1d1e413b-0ff6-45ad-927e-50986ec80e94" />
+
+
 
 
 ###  Roberts Edge Detector
@@ -90,7 +93,8 @@ plt.imshow(laplacian, cmap='gray')
 plt.title('Laplacian Edge Detection')
 plt.axis('off')
 ```
-<img width="466" height="542" alt="image" src="https://github.com/user-attachments/assets/a6269593-4464-4fee-996d-3463b24ff062" />
+
+
  
 
 ###  Laplacian Edge Detector
@@ -100,7 +104,9 @@ plt.imshow(canny_edges, cmap='gray')
 plt.title('Canny Edge Detection')
 plt.axis('off')
 ```
-<img width="410" height="547" alt="image" src="https://github.com/user-attachments/assets/72201cf3-d5b7-4c57-a987-024553fd5c50" />
+
+<img width="313" height="526" alt="image" src="https://github.com/user-attachments/assets/0116c848-1823-423f-b921-ae6d8659934b" />
+
 
 
 ###  Canny Edge Detector
@@ -125,8 +131,8 @@ plt.imshow(canny_edges, cmap='gray')
 plt.title('Prewitt Edge Detection')
 plt.axis('off')
 ```
-<img width="443" height="542" alt="image" src="https://github.com/user-attachments/assets/889e41ff-15b8-44c0-aba5-54701c9e9e64" />
 
+<img width="319" height="518" alt="image" src="https://github.com/user-attachments/assets/48eff31b-4207-40ad-a04f-a7f04f83e255" />
 
 ## Result
 
